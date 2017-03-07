@@ -3,7 +3,7 @@ language: node_js
 # Version number
 node_js:
   - 0.10
-  #- 0.12
+  - 0.12
  # - 4.2.3
  # - iojs-v1
  # - iojs-v2
@@ -14,7 +14,7 @@ node_js:
 build:
   ci:
     - node --version
-    - sleep 9m
+   # - sleep 9m
     
   pre_ci_boot:
     image_name: drydock/u16nodall
