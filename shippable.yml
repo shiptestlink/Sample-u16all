@@ -17,6 +17,6 @@ build:
    # - sleep 9m
     
   pre_ci_boot:
-    image_name: drydock/u16nodall
+    image_name: drydock/u14nodall
     image_tag: prod
     pull: true  
